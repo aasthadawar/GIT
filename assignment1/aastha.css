@@ -1,0 +1,143 @@
+
+body {
+
+    overflow-x: hidden;
+    
+}
+.header{
+    width:100%;
+    position : absolute ;
+    top : 40px;
+    left : 20px;
+    height :30px;
+    width : 95%;
+    
+    }
+.left{
+   float:left;
+}
+.right{
+   float:right;
+}
+.button{
+   
+   width:10%;
+   margin-bottom: 20px;
+}
+
+
+.aside{
+   position : absolute;
+   top : 90px;
+   left : 0;
+   padding: 20px;
+   border-right: 3px solid black;
+   height : 800px;
+   width : 20%;
+}
+.himg{
+    width:150px;
+    height:30px;
+}
+.hr{
+   border: 2px solid black;
+   left:0;
+   position: absolute;
+   top:80px;
+   margin-left:0px;
+   width:100%
+}
+.adiv{
+   width:150px;
+   height:150px;
+   margin:12px;
+   border: 1px solid grey;
+   text-align:center;
+   padding: 10px;
+   background-color: lightpink;
+}
+.idiv{
+   margin:80px;
+   padding:9px;
+}
+img{
+   width: 300px;
+   height: 300px;
+}
+.displayi{
+   display:inline-block;
+}
+.displayb{
+   display:block;
+}
+#button{
+   margin:10px;
+   padding:5px;
+}
+.section{
+   position : absolute ;
+   top : 90px;
+  left :  320px;
+
+   
+   
+}
+
+table,th,td{
+   border-collapse: collapse;
+   border:1px solid black;
+   padding:15px;
+}
+.table{
+   position : relative ; 
+   width : 80%;
+   top : 0px;
+   left : 10%;
+}
+
+.imgpara {
+   position : relative ;
+   
+   display : flex;
+}
+.boxes {
+   position : relative;
+   
+   height : 200px;
+   width : 100%;
+   
+}
+.article {
+   position : relative ;
+    top : 100px;
+}
+.article2{
+   position: relative;
+   top:-90px;
+}
+.atable{
+   position:relative;
+   top:150px;
+}
+.img{
+   width:100px;
+   height:50px;
+}
+ label[for ="email"] {
+   position : relative ;
+   left : 150px;
+ }
+
+ .user {
+     position : relative ;
+     left : 90px;
+
+     
+ }
+ .form{
+     position:relative;
+     left:90px;
+ }
+ .input{
+     margin:5px 20px;
+ }
