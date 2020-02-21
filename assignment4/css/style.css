@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    overflow-x: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+
+/* navbar1 */
+#navbar{
+    background-color: #ECF0F1 ;
+    overflow:auto;
+}
+/* navbar 1 left*/
+#navbar1{
+    
+    float:left;
+    padding: 10px 0px 10px 60px;
+    
+}
+#navbar1 ul li{
+    float:left;
+    font-size:12px;
+    padding:0px 5px;
+} 
+#navbar1 ul li {
+    border-right: 1px solid #839192;
+    
+}
+#navbar1 ul li a {
+   color:#839192;
+    
+}
+
+#navbar1 ul li:last-child {
+    border-right: none;
+}
+/* navbar 1 right*/
+#navbar2 {
+    float:right;
+    margin-right: 80px;
+}
+.navbar2_icon{
+    color:green;
+    padding:10px 5px;
+    cursor: pointer;
+}
+/* navbar 2 left*/
+#navbar_1main{
+    padding:10px;
+    float:left;
+    margin: 0px 0px 0px 70px;
+}
+#navbar_1{
+   margin-left:50px;
+   margin-top:-35px; 
+}
+#navbar_1 p:first-child{
+    color: green;
+    font-size: 25px;
+}
+#navbar_1 p:last-child{
+    color: #626567 ;
+    font-size:14px;
+}
+
+#navbar_1main::before{
+    content:"\f19d";
+    font-family: fontAwesome;
+    padding:0px;
+    font-size: 30px;
+    color:green;
+}
+/* 2nd nav part2*/
+#navbar_1main2{
+    padding:4px;
+    float:left;
+    margin: 9px 0px 0px 210px;
+}
+#navbar_1main2::before{
+    content:"\f879";
+    font-family: fontAwesome;
+    padding:0px;
+    font-size: 20px;
+    color:green;
+}
+#navbar_2{
+    margin-left:30px;
+    margin-top:-20px; 
+ }
+ #navbar_2 p{
+    color: #626567 ;
+    font-size:14px;
+}
+/*2nd nav part3*/
+#navbar_1main3::before{
+    content:"\f3c5";
+    font-family: fontAwesome;
+    padding:0px;
+    font-size: 20px;
+    color:green;
+}
+#navbar_3 p{
+    color: #626567 ;
+    font-size:14px;
+}
+#navbar_1main3{
+    padding:5px;
+    float:left;
+    margin: 12px 0px 0px 50px;
+}
+#navbar_3{
+    margin-left:30px;
+    margin-top:-18px; 
+ }
+ #navbar_a{
+     display:inline-block;
+     float:left;
+     border:2px solid green;
+     height:30px;
+     width:100px;
+     text-align: center;
+     padding:5px;
+     margin: 15px 0px 0px 100px;
+     color: green;
+     border-radius: 0.2em;
+ }
+
+ #nav_2main ul li{
+     float: left;
+     padding:9px 20px;
+     
+ }
+ #nav_2main ul li:first-child
+ {
+    margin-left: 100px;
+}
+#nav_2main ul li i
+ {
+    color:white;
+ }
+ #nav_2main ul li a{
+    color:white;
+    font-size: 12px;
+}
+ #nav_2main{
+     background-color: green;
+     overflow:auto;
+ }
+
+ section{
+     
+     height:380px;
+     background : url("../images/studying-in-library.jpg") no-repeat center/cover;
+    opacity: 0.5;
+    }
+section h2{
+    color:white;
+    text-align: center;
+    font-size:30px;
+    padding-top:70px;
+    margin:0px 500px;
+    font-weight: 900;
+}
+section p{
+    color:white;
+    text-align: center;
+    margin:0px 400px
+}
+section a{
+    display:inline-block;
+    padding:4px;
+    border: 1px solid white;
+    border-radius:0.1em;
+    color:white;
+    margin-right: 10px;
+    font-size:12px;
+    margin-top:10px;
+   
+}
+section a:hover{
+    border:1px solid  rgb(6, 247, 106) ;
+    background-color: rgb(6, 247, 106) ;
+    text-align: center;
+
+}
+#section_a{
+    margin-left:550px;
+}
+.box{
+    width:18%;
+    height:200px;
+    display:inline-block;
+    background-color: blue;
+    position:absolute;
+    top:-60px;
+    left:220px;
+}
+.box1{
+    width:18%;
+    height:200px;
+    display:inline-block;
+    background-color: red;
+    position:absolute;
+    top:-60px;
+    left:420px;
+}
+.box2{
+    width:18%;
+    height:200px;
+    display:inline-block;
+    background-color:yellowgreen;
+    position:absolute;
+    top:-60px;
+    left:620px;
+}
+.box3{
+    width:18%;
+    height:200px;
+    display:inline-block;
+    background-color:#E67E22 ;
+    position:absolute;
+    top:-60px;
+    left:820px;
+}
+
+article{
+    width:90%;
+    position:relative;
+    height:200px;
+    
+}
+
+.styling i{
+ color:white;
+ padding:10px;
+ font-size: 40px;
+ margin:10px 40px 0px 70px;
+}
+.styling h3{
+    color:white;
+    
+    text-align:center;
+   }
+   .styling p{
+    color:white;
+    font-size: 14px;
+    text-align:center;
+    padding:10px;
+   }
