@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+
+/* for navbar*/
+
+#navbar{
+    background-color: #1E4B89;
+    overflow:auto;
+    height:80px;
+}
+
+.sprite {
+	background: url('../images/SsfpSG9nDt5.png') no-repeat 0 -196px;
+	width: 170px;
+    height: 34px;
+    float:left;
+    margin: 25px 0px 0px 150px;
+}
+.input{
+    height:25px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+#button{
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: #34619E ;
+    padding:5px 10px;
+    color:white;
+}
+.label{
+    color:white;
+    font-size: 14px;
+}
+.nav_div{
+    margin-left:400px;
+    margin-top: 10px;
+}
+section{
+    background-color: #EEF1F6;
+    overflow:auto;
+}
+#article1{
+    margin:45px 0px 0px 100px;
+    width:30%;
+}
+#article1 p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#article2 h3{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#article2 h4{
+    font-size: 20px;
+
+    padding-bottom: 15px;
+}
+.input1{
+    padding:5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+.input2{
+    width:87%;
+    padding:5px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin-top: 8px;
+}
+#gender{
+    color:#566573;
+    font-size: 20px;
+}
+#birthday{
+    color:#566573;
+    font-size: 20px;
+    
+}
+.gender_input{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.gender_input{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+#input_p{
+    font-size:14px;
+    padding:10px 60px 10px 0px;
+    color: #566573;
+    margin-right: 200px;
+}
+.input_span{
+    color:#2E3ACC;
+}
+#input_button{
+    padding:10px 80px;
+    background-color: green;
+    border-radius: 4px;
+    border: 1px solid green;
+    margin:10px 0px;
+    color:white;
+    font-size:20px;
+}
+#a_p{
+    margin-top: 20px;
+}
+#article2{
+    float:left;
+    width:50%;
+    margin-left: 150px;
+}
+footer{
+    color:darkgrey;
+    padding:10px;
+    margin-left:50px;
+}
+select{
+    padding:5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#special{
+    margin-bottom: 20px;
+}
+#p_p{
+    color: #566573;
+}
