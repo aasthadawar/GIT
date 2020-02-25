@@ -1,0 +1,150 @@
+.wrapper{
+    max-width: 1024px;
+}
+
+.img_parent{
+    height: 60vh;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .main_navbar{
+    float:none;
+    display:none;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }  
+
+  .top_header{
+    
+    width:90%;
+    padding-top: 0.8rem;
+    padding-bottom: 1.2rem; 
+  }
+
+
+.building_section h2{
+    
+    font-size: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.building_section{
+    width:30%;
+   margin:0px auto;
+   overflow:auto;
+   margin-top:3rem;
+   text-align: center;
+   color: white;
+}
+
+#special_div{
+    padding-right: 3rem;
+    border-right: 0.1rem solid darkgray;
+}
+
+.travel_div{
+    
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.gallery_div{
+    margin-bottom: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.building_icon{
+    padding:0rem 0rem 0.3rem 0rem; 
+}
+
+.building_section h3{
+    font-size: 1rem;
+}
+
+.building_section p{
+    padding-top: 0rem;
+}
+
+.building_section a{
+    
+    
+    margin:1.5rem auto 2.5rem auto;
+    padding:0.1rem;
+    width:60%
+}
+
+.content_section{
+    width:100%;
+    margin: 1.5rem auto;
+}
+
+.content_section div{
+    width:100%;
+    
+}
+
+.content_img{
+    width:6rem;
+    height:6rem;
+}
+
+.main_p{
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 1rem 19rem 1rem 20rem;
+}
+
+.clicking{
+    float:none;
+    margin-bottom: 2.5rem;
+}
+
+.camera{
+    float:none;
+}
+
+.sub_p{
+    font-size: 0.9rem;
+    padding: 0.5rem 14rem 3rem 15rem;
+    color: #424949;
+    text-align: center;
+}
+
+.content_section a{
+    color: seagreen;
+    padding: 0.5rem 2.5rem;
+    text-align: center;
+    border: 0.099rem solid seagreen;
+    border-radius: 2rem;
+    margin-left: 20.5rem;
+}
+
