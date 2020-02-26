@@ -1,0 +1,211 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear:both;
+}
+.wrapper{
+    max-width: 1300px;
+    width:100%;
+    
+}
+
+/*parent background*/
+
+.img_parent{
+    height: 85vh;
+    width:100%;
+}
+
+.building_background{
+    background: url('../images/high-rise-buildings.jpg') no-repeat center center/cover;
+    height:100%;
+   
+}
+
+.overlay_img{
+    background: rgba(89, 90, 92,0.9);
+    height:100%;
+    
+}
+
+/*header*/
+
+.top_header{
+  color:white;
+  margin-left:auto;
+  margin-right: auto;
+  
+  width:70%;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.main_navbar ul li{
+    float:left;
+    padding-right:2rem;
+}
+
+.main_navbar ul li:last-child{
+    padding-right: 0px;
+}
+
+.top_header a{
+    color:white;
+}
+
+/*image section*/
+
+.building_section{
+    width:30%;
+   margin:0px auto;
+   
+   margin-top:4rem;
+   text-align: center;
+   color: white;
+}
+
+.building_icon{
+    color:seagreen;
+    font-size: 2rem;
+    padding:0.5rem 0rem 0.8rem 0rem; 
+}
+
+.building_section h2{
+    
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+#special_div{
+    padding-right: 7rem;
+    border-right: 0.1rem solid darkgray;
+}
+
+.building_section p{
+    color: lightgray;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+}
+
+.travel_div{
+    float:left;
+}
+
+.gallery_div{
+    float:right;
+}
+
+.building_section h3{
+    padding-bottom:0rem;
+}
+
+.section_div{
+    clear:both;
+    overflow:auto;
+}
+
+.building_section a{
+    
+    
+    clear:both;
+    padding:0.5rem;
+    display: block;
+    width:50%;
+    border: 0.2rem solid seagreen;
+    border-radius: 2rem;
+    text-align: center;
+    color:seagreen;
+    margin:5rem auto 3.9rem auto;
+}
+
+.building_section article{
+    clear:both;
+    overflow: auto;
+    
+}
+
+/*below image section*/
+
+.content_section{
+    width:70%;
+    margin: 4rem auto;
+}
+
+.clicking{
+    float:left;
+}
+
+.camera{
+    float:right
+}
+
+.content_img{
+    width:8rem;
+    height:8rem;
+    border-radius: 50%;
+    display: block;
+    margin:0rem auto;
+}
+
+.content_section div{
+    width:calc(50% - 1rem);
+    
+}
+
+
+
+.sub_p{
+    font-size: 0.9rem;
+    padding: 0.8rem 4.5rem 3rem 5rem;
+    color: #424949;
+    text-align: center;
+}
+
+.main_p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 5rem 1rem 6rem;
+    
+
+}
+
+#special_p{
+    padding: 1rem 5rem 1rem 6.5rem;
+}
+
+.content_section a{
+    color: seagreen;
+    padding: 0.5rem 2.5rem;
+    text-align: center;
+    border: 0.099rem solid seagreen;
+    border-radius: 2rem;
+    margin-left: 6.4rem;
+}
+
+.dropdown{
+    display: none;
+}
+
+hr{
+    display: none;
+}
