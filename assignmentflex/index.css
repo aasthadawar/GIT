@@ -1,0 +1,314 @@
+
+* {
+    box-sizing: border-box;
+    padding : 0;
+    margin : 0;   
+
+    font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header nav { 
+
+    width : 100%;
+     display : flex;
+     background-image : url('./public/header-background.jpg') ;
+     flex-wrap : wrap;
+     
+}
+
+.header nav > div  {
+       
+      flex-grow : 1;
+
+}
+
+
+.right-nav ul {
+    display : flex;
+    justify-content: flex-end;
+    height : 100%;
+    align-items: center;
+}
+
+.right-nav ul li {
+    padding : 1.5rem 1rem;
+    list-style : none;
+    color : #fff;
+    font-weight : bold;
+
+    
+}
+.left-nav {
+    display : flex;
+   justify-content : center ;
+   flex : 1;
+   
+  
+}
+
+.left-nav h1 {
+    padding : 2rem;
+    color : #fff;
+    font-size : 3.5rem;
+    font-weight : 200;
+
+}
+
+.left-nav select {
+    margin : 2rem;
+    padding: 1rem 2rem;
+    /* height  : 2rem; */
+    align-self : center;
+    background : transparent;
+    /* border-left : 1px solid #888888; */
+    color : #fff;
+    /* outline: none;; */
+    font-size : 20px;
+    border : none;
+    border-left : 2px solid #dddddd;
+    outline : none;
+}
+
+.left-nav select option {
+    background : orange;
+
+}
+
+.banner {
+   height : 57vh;
+   background-image: url('./public/monochrome-photography-of-people-shaking-hands-814544.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.banner-layout {
+    height: 100%;
+    background-color: rgba(0 , 0 , 0, 0.8);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color : #fff;
+}
+
+.banner-layout div {
+
+text-align : center; 
+}
+
+.banner-layout div h1 {
+    font-size : 60px;
+    padding : 0.5rem;
+}
+
+.banner-layout div p {
+    font-size : 16px;
+    padding : 0.5rem;
+}
+.banner-layout div button {
+     height : 3rem;
+     margin : 2rem;
+     width : 10rem;
+     border-radius : 2rem;
+     border : none;
+     background : linear-gradient(90deg,#f7b733 0%,  #fc4a1a 100% );
+     color : #fff;
+     font-weight : bold;
+}
+
+.breadcrum  {
+    display : flex;
+    position : absolute;
+    background : transparent;
+}
+.breadcrum  li::after {
+    
+    content : ">";
+
+}
+.breadcrum li:last-child::after{
+    content : none;
+    
+}
+.breadcrum li:last-child {
+    font-weight : 800;
+}
+.breadcrum li {
+    list-style : none;
+    padding-left : 2rem;
+    color : #fff;
+}
+
+.featured-videos {
+
+    margin : 5rem 10rem;
+    box-shadow: -2px 1px 46px 14px rgba(217,202,222,1);
+    height : 100%;
+    border-radius : 0.5rem;
+    display : flex;
+    /* flex-wrap: wrap; */
+
+}
+
+.featured h1{
+   text-align : center;
+   margin : 3rem 0;
+   font-size : 3rem;
+   color : #3c4552;
+}
+
+.big-img {
+    /* flex-basis: 50%; */
+    flex-grow : 1
+}
+
+.big-img img{
+    height : 100%;
+    width : 100%;
+    /* flex  : 1; */
+    
+    padding : 2rem;
+    border-radius : 2.5rem;
+}
+
+
+.sml-img {
+    padding : 4% 2%;
+
+}
+
+.side-img {
+    display : flex;
+    /* margin : 2% 0; */
+}
+
+
+.icon1 {
+    
+    flex : 1;
+    padding : 2%;
+    /* justify-self: center; */
+   text-align : right;
+}
+
+.icon1 img{
+    width :  80%;
+    padding : 2%;
+   
+}
+.icon-content {
+    flex : 2;
+    padding : 2%;
+}
+
+.partner-list {
+
+    display : flex;
+    flex-wrap : wrap;
+    box-shadow: -2px 1px 46px 14px rgba(217,202,222,1); 
+    width : 90%;
+    margin : auto;
+    justify-content: center;
+}
+
+.our-partners {
+    background : #f4f4f4;
+    text-align : center;
+}
+
+.our-partners h1 {
+
+    padding : 3% 0 2% 0;
+    font-size:  2rem;
+    
+}
+.partners  {
+    
+    width : 25%;
+    text-align : center;
+    padding : 2% 0;
+    border : 1px solid #eeeeee;
+  height : 100%
+
+}
+.partners img{
+
+    width : 25%;
+    
+}
+
+.partner-list button {
+
+    padding : 1% 2%;
+    margin : 2%;
+    border-radius : 10px;
+    border : none;
+    background-color: white;
+    color : rgb(84, 24, 139);
+    box-shadow: -2px 1px 46px 14px rgba(217,202,222,1); 
+
+    
+}
+
+.partner-list button i {
+    padding : 0 5px;
+}
+
+
+.partner-form {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content: center;
+}
+
+.become-partner {
+    padding : 4%;
+
+}
+
+.become-partner h2{
+     padding-bottom : 3%;
+     text-align : center;
+}
+.partner-form label {
+    display : block;
+
+    padding : 4% 0 2% 0 ;
+}
+.pi-area {
+   width : 33%;
+   
+}
+
+.pi-area textarea {
+   
+    width : 90%;
+    border-radius : 0.3rem;
+
+}
+.com-area {
+ width : 50%;
+ height :100%;
+}
+.com-area textarea {
+    width : 90%;
+    padding : 4%;
+    height: 100%;
+    border-radius: 0.4rem;
+}
+
+
+.submit-btn  {
+    width : 100%;
+    margin-right : 5%;
+    margin-top : 5%;
+    text-align : center;
+}
+.submit-btn button {
+    padding :  2% 4% ;
+    background : linear-gradient(90deg,#f7b733 0%,  #fc4a1a 100% );
+     border : none;
+     border-radius : 2rem;
+     color : #fff;
+     font-weight : bold;
+ 
+}
