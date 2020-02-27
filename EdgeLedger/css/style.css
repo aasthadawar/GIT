@@ -1,0 +1,213 @@
+.wrapper{
+    max-width: 1300px;
+    width:100%;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none ;
+}
+ul{
+    list-style: none;
+}
+
+/*background_img*/
+
+.parent_img{
+    height:100vh;
+}
+
+.background_img{
+    background: url('../images/showcase.jpg') no-repeat center  center/cover;
+    height:100%;
+}
+.overlay_img{
+    height:100%;
+    background: rgba(28, 40, 51 ,0.4);
+}
+
+/*header*/
+
+.building_header{
+    
+    background-color:rgba(39, 55, 70,0.8);
+    padding:1.5rem;
+    position:fixed;
+    
+}
+
+.navbar{
+    display:flex;
+    color:white;
+    justify-content: space-between;
+}
+
+.navbar a{
+    color:white;
+    padding:1rem 1rem;
+    
+}
+
+.header_right a:last-child{
+    margin-right: 0rem;
+}
+
+.navbar h2 span{
+    color: green;
+}
+
+ #special_div::before{
+    content: "\f518";
+    font-family: fontAwesome;
+    padding-right: 0.5rem;
+    color:green;
+}
+
+#special_div{
+    display: inline-block;
+    
+}
+
+.header_right a:hover{
+    background-color: green;
+    border-radius: 0.5rem;
+}
+
+
+
+/* section over image*/
+
+.img_section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.img_section h2{
+    color: white;
+    font-style: 2rem;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.img_section p{
+    color:white;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.img_section a{
+    padding:0.5rem 2rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    display: block;
+    margin:0rem auto;
+    width:20%;
+    font-size: 1.5rem;
+}
+
+.img_section a:hover{
+    background-color: seagreen;
+}
+
+/* what are we*/
+
+.what{
+    
+    background-color:#F8F9F9;
+}
+
+.what-content{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:2rem auto 0rem auto;
+    
+}
+
+.what-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.what h2 span{
+    color:green;
+    
+}
+
+.what h2{
+    padding:0rem 2rem;
+    text-align: center;
+}
+
+.what_icon{
+    background-color: green;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    align-self: center;
+}
+
+.what-sub-items{
+    margin:1rem;
+    text-align: left;
+}
+
+/* who are we*/
+
+.who{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);
+    height: 60vh;
+    width: 100vw;
+}
+
+.who-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.who img{
+    width:50%;
+}
+
+/* our clients*/
+
+.our_clients{
+    width:80%;
+    margin:0rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.our_clients-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_logo{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+
+.logo{
+    width:60%;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
