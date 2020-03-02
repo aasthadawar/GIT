@@ -1,0 +1,45 @@
+.wrapper{
+    max-width: 526px;
+    width:100%;
+}
+
+.nav{
+    display: flex;
+}
+
+.navbar{
+    flex-direction: column;
+}
+
+.img_section a{
+   
+    padding:0.2rem 0.2rem;
+    width:40%;
+    margin-top: -2rem;
+   }
+
+   .what-content{
+    flex-direction: column;
+    
+   }
+
+   .what-items{  
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.who_img{
+    display: none;
+}
+
+.our_clients{
+    width:100%;
+}
+
+.form_image{
+    display: none;
+}
+
+.form{
+    flex-basis: 100%;
+}

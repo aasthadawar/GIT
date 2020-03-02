@@ -1,0 +1,47 @@
+.wrapper{
+    max-width: 1024px;
+    width:100%;
+}
+
+.form{
+    background-color: green;
+    flex-basis: 50%;
+    padding: 2rem;
+}
+
+.form_image { 
+    flex-basis: 50%;
+
+}
+
+.what-content{
+    
+    width:90%;
+    
+}
+
+.who-content{
+   
+    padding: 0.6rem 2rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.who img{
+    width: 100%;
+    height: 100%;
+}
+
+.who_img{
+    width: 50%;
+}
+
+.who-content{
+    width: 50%;
+}
+
+.img_section a{
+    text-align: center;  
+    padding:0.8rem 0.8rem;
+   }
+   
