@@ -1,0 +1,159 @@
+.wrapper{
+    max-width: 600px;
+    width:100%;
+}
+
+.main_navbar{
+    display: none;
+}
+
+.top_header{
+    width: 90%;
+}
+
+.clicking{
+    float: none;
+}
+.camera{
+    float: none;
+    width: 100%;
+}
+.building_section{
+    width: 80;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.building_section h2{
+    padding-bottom: 0px;
+}
+
+.travel_div{
+    float: none;
+    
+}
+#special_div{
+    border-right: none;
+}
+
+.building_icon{
+    font-size: 2rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.building_section p{
+    padding-top: 0rem;
+}
+.travel_div{
+    margin-bottom: 2rem;
+}
+.gallery_div{
+    float: none;
+
+}
+
+.building_section a{
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-contents{
+    position: absolute;
+    z-index:3;
+    right:0;
+    display: none;
+    height:100vh;
+    
+}
+
+.dropdown-contents a{
+    display: block;
+    padding:10px;
+    text-decoration: none;
+    color:white;
+    width: 100%;
+
+    
+}
+.dropdown-contents a:hover{
+    background-color:seagreen;
+}
+.dropdown:hover .dropdown-contents{
+    display:block;
+    
+}
+
+.dropdown:hover .dropdown-contents{
+    position:fixed;
+    height: 100vh;
+    background-color: seagreen;
+    width:35%;
+    right:0px;
+    top:0px;
+}
+aside{
+    display: block;
+    position: absolute;
+      
+      top:20px;
+      left: 160px;
+  }
+  
+  .dropdown-contents div:first-child{
+      
+      margin-top: 20px;
+  }
+  
+  .dropdown-contents div{
+      border-bottom: 1px solid lightgray;
+  }
+  
+  .dropdown-contents div:last-child{
+      border-bottom: none;
+  }
+
+  .ficon{
+    cursor:pointer;  
+    position: relative;
+    top:10px;
+    width:100px;
+    right:-8.7rem;
+    color:lightgray; 
+}      
+
+.clicking{
+    float: none;
+    width: 100;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.content_section{
+    width: 100%;
+}
+
+.content_section div {
+    width:unset;
+}
+
+.travel-gallery{
+    width: 100%;
+}
+
+.travel_div{
+    width: 100%;
+}
+
+.gallery_div{
+    width: 100%;
+}
