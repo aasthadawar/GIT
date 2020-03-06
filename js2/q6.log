@@ -1,0 +1,26 @@
+var add= (function(){
+    var counter=0;
+    function inner(){
+        return counter++;
+    }
+    return inner;
+})();
+undefined
+add();
+0
+add();
+1
+add();
+2
+add();
+3
+add();
+4
+counter=5;
+5
+counter=9;
+9
+add();
+5
+add();
+6

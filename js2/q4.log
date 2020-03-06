@@ -1,0 +1,33 @@
+//argument object is array like object which is accessible inside the function that contains the values of argument passed to the function
+
+//PROPERTY 1
+// arguments.callee is used to refer currently executing function inside the function body. This is useful when name of the function is unknown
+undefined
+[1,2,3].map(function(n) {
+return !(n>1) ? 1 : arguments.callee(n-1) * n; 
+});
+(3) [1, 2, 6]
+//PROPERTY 2
+// arguments[@@iterator]() it is used to iterate the arguments passed
+undefined
+function iterate() {
+  for (let num of arguments) {
+    console.log(num);
+  }
+}
+undefined
+iterate('1','2','3');
+VM11821:3 1
+VM11821:3 2
+VM11821:3 3
+undefined
+//PROPERTY 3
+//arguments.length is used to find the length of parameters passed
+undefined
+function adder() {
+ console.log(arguments.length);
+}
+undefined
+adder(1,2,3,4,5);
+VM11876:2 5
+undefined

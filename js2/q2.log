@@ -1,0 +1,18 @@
+var arr=[1,2,3,4,5];;
+undefined
+var y=0;
+var len=arr.length;
+var timer = setInterval(()=>{
+if(y==len){
+  clearInterval(timer);
+}
+else{
+console.log(arr[y++]);}}
+,3000);
+ 
+undefined
+VM7287:8 1
+VM7287:8 2
+VM7287:8 3
+VM7287:8 4
+VM7287:8 5

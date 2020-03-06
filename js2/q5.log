@@ -1,0 +1,27 @@
+function calc() {
+  
+  if(this!=window)
+  this.__proto__.times+=1;
+  
+ calc.instances+=1;
+}
+
+
+
+calc.prototype.times = 0;
+calc.instances = 0;
+
+
+var obj1 = new calc();
+var obj2 = new calc();
+var obj3 = new calc();
+calc()
+calc()
+calc()
+calc()
+
+console.log(calc.prototype.times)
+console.log(calc.instances-calc.prototype.times);
+VM8808:23 3
+VM8808:24 4
+undefined

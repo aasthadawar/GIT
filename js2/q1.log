@@ -1,0 +1,33 @@
+function Developer(competancy){
+    this.competancy=competancy;
+    return "competancy is  "+this.competancy;
+}
+undefined
+function Employee(id){
+    this.id=id;
+return "id is  "+this.id;
+}
+undefined
+function Person(name){
+    this.name=name;
+return "name is "+this.name;
+}
+undefined
+Developer.prototype.Employee=Employee;
+ƒ Employee(id){
+    this.id=id;
+return "id is  "+this.id;
+}
+Employee.prototype.Person=Person;
+ƒ Person(name){
+    this.name=name;
+return "name is "+this.name;
+}
+var aastha = new Developer('MEAN');
+undefined
+aastha.__proto__.Person('aastha');
+"name is aastha"
+aastha.__proto__.Employee(3971);
+"id is  3971"
+aastha;
+Developer {competancy: "MEAN"}

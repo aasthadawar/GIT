@@ -1,0 +1,37 @@
+//bind method creates a new function, when it is called , has its this keyword set to the provided value
+undefined
+//bind example
+undefined
+this.y=4;
+var myObj={
+    y:90,
+    getY:function(){return this.y}
+}
+var a = myObj.getY;
+4
+a();  // the answer will be 4 as the function is not find to any object hence this points to window object hence it gives the value of window
+4
+var bindA = a.bind(myObj); // bind the myObj with function
+undefined
+bindA(); //now this will point to this of the object as it is binded
+90
+// bind example over
+undefined
+//
+undefined
+// call method calls the given this value and arguments provided indiviually
+undefined
+//call example
+undefined
+function Employee(name, id) {
+  this.name = name;
+  this.id = id;
+}
+undefined
+function Developer(name, id) {
+  Employee.call(this, name, id);
+}
+undefined
+console.log(new Developer('aastha', 3971).name);
+VM10664:1 aastha
+undefined
