@@ -1,0 +1,43 @@
+const song = {
+
+ name: 'Dying to live',
+
+ artist: 'Tupac',
+
+ featuring: 'Biggie Smalls'
+
+};
+undefined
+var key = Object.keys(song);
+undefined
+var titleCase = key[2].charAt(0).toUpperCase()+key[2].substring(1).toLowerCase();
+undefined
+titleCase;
+"Featuring"
+console.log(`<div class="song">
+
+   <p>
+
+     ${song.name} — ${song.artist}
+
+     (${titleCase} ${song.featuring})
+
+   </p>
+
+ </div>
+
+`);
+VM1416:1 <div class="song">
+
+   <p>
+
+     Dying to live — Tupac
+
+     (Featuring Biggie Smalls)
+
+   </p>
+
+ </div>
+
+
+undefined

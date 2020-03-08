@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+
+ 
+ 	
+        <li data-time="5:17">Flexbox Video</li>
+        
+             
+        <li data-time="8:22">Flexbox Video</li>
+        
+             
+        <li data-time="3:34">Redux Video</li>
+        
+             
+        <li data-time="5:23">Flexbox Video</li>
+        
+             
+        <li data-time="7:12">Flexbox Video</li>
+        
+             
+        <li data-time="7:24">Redux Video</li>
+        
+             
+        <li data-time="6:46">Flexbox Video</li>
+        
+             
+        <li data-time="4:45">Flexbox Video</li>
+        
+             
+        <li data-time="4:40">Flexbox Video</li>
+        
+             
+        <li data-time="7:58">Redux Video</li>
+        
+             
+        <li data-time="11:51">Flexbox Video</li>
+        
+             
+        <li data-time="9:13">Flexbox Video</li>
+        
+             
+        <li data-time="5:50">Flexbox Video</li>
+        
+             
+        <li data-time="5:52">Redux Video</li>
+        
+             
+        <li data-time="5:49">Flexbox Video</li>
+        
+             
+        <li data-time="8:57">Flexbox Video</li>
+        
+             
+        <li data-time="11:29">Flexbox Video</li>
+        
+             
+        <li data-time="3:07">Flexbox Video</li>
+        
+             
+        <li data-time="5:59">Redux Video</li>
+        
+             
+        <li data-time="3:31">Flexbox Video</li>
+        
+             
+        </ul>
+        <script>
+            
+            var arr = document.getElementsByTagName("LI");
+             var liArr = [];
+             var timeString = [];
+             for(let i of arr )
+             {
+                 liArr.push(i.innerHTML);
+             }
+             console.log('Answer 1 ************');
+             console.log(liArr);
+            
+            var filter = liArr.filter((item)=>item.includes('Flexbox'));
+
+            console.log('Answer 2 ************');
+            console.log(filter);
+
+            for(let i of arr)
+            {
+                timeString.push(i.getAttribute("data-time"));
+            }
+            console.log('Answer 3 ************');
+            console.log(timeString);
+
+            let secArr = timeString.map((item)=>{
+                return item.split(':')[1];
+            });
+            console.log('Answer 4 ************');
+            console.log(secArr);
+
+            var sum=0;
+            secArr.map((item)=>{
+                sum+=parseInt(item);
+            });
+            console.log('Answer 5 *************')
+            console.log(sum);
+        </script>
+</body>
+</html>
