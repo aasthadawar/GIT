@@ -1,0 +1,42 @@
+var map = new Map();
+undefined
+map.set(null,'hi');
+Map(1) {null => "hi"}
+map.set(false,'yes');
+Map(2) {null => "hi", false => "yes"}
+map.set(false,'yes');
+Map(2) {null => "hi", false => "yes"}
+map.set(1,'number');
+Map(3) {null => "hi", false => "yes", 1 => "number"}
+function hi(){}
+undefined
+map.set(hi,'function');
+Map(4) {null => "hi", false => "yes", 1 => "number", ƒ => "function"}
+s = Symbol();
+Symbol()
+map.set(s,'symbol');
+Map(5) {null => "hi", false => "yes", 1 => "number", ƒ => "function"}[[Entries]]0: {null => "hi"}1: {false => "yes"}2: {1 => "number"}3: {function hi(){} => "function"}4: "symbol"size: (...)__proto__: Map
+map.set(NaN,'not a number');
+Map(6) {null => "hi", false => "yes", 1 => "number", ƒ => "function", …}
+map;
+Map(6) {null => "hi", false => "yes", 1 => "number", ƒ => "function", …}[[Entries]]0: {null => "hi"}1: {false => "yes"}2: {1 => "number"}3: {function hi(){} => "function"}4: "symbol"5: {NaN => "not a number"}size: (...)__proto__: Map
+// set implementation start
+undefined
+var set = new Set();
+undefined
+set.add(1);
+Set(1) {1}
+set.add('hello');
+Set(2) {1, "hello"}
+set.add(2);
+Set(3) {1, "hello", 2}
+set.add(null);
+Set(4) {1, "hello", 2, null}
+set.add(NaN);
+Set(5) {1, "hello", 2, null, NaN}
+set.add(2);
+Set(5) {1, "hello", 2, null, NaN}
+set.size;
+5
+set;
+Set(5) {1, "hello", 2, null, NaN}

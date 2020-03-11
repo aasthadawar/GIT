@@ -1,0 +1,100 @@
+class linkedList {
+
+     constructor(x) {
+              
+          if(x)
+        {  this.data = x; }
+          this.left = null;
+          this.right = null;
+
+     }
+
+}
+undefined
+let head = new linkedList();
+undefined
+function addlast(head, val) {
+
+     let temp = head;
+
+     while (temp.right != null) {
+          temp = temp.right
+     }
+
+     temp.right = new linkedList(val);
+}
+undefined
+function addfirst(head, val) {
+     let temp = head.right;
+     head.right = new linkedList(val);
+     head.right.right = temp;
+}
+undefined
+function length(head) {
+
+     let counter = 0;
+
+     let temp = head;
+     while (temp.right != null) {
+          temp = temp.right;
+          counter++;
+     }
+     return counter ;
+}
+undefined
+function getfirst(head) {
+     return head.right.data;
+}
+undefined
+function getlast(head) {
+     let temp = head;
+     while (temp.right != null) {
+          temp = temp.right;
+     }
+     return temp.data;
+}
+
+undefined
+function print(head)
+{
+     let temp = head;
+     while(temp.right!=null)
+     {  
+          temp = temp.right;
+          console.log(temp.data);
+     }
+}
+undefined
+addlast(head , 6);
+addlast(head , 8);
+addlast(head , 4);
+addlast(head , 3);
+addlast(head , 7);
+addlast(head , 1);
+addlast(head , 9);
+addlast(head , 2);
+addlast(head , 5);
+undefined
+addfirst(head , 34);
+undefined
+console.log(getfirst(head));
+VM136:1 34
+undefined
+console.log(getlast(head));
+VM141:1 5
+undefined
+print(head);
+VM110:7 34
+VM110:7 6
+VM110:7 8
+VM110:7 4
+VM110:7 3
+VM110:7 7
+VM110:7 1
+VM110:7 9
+VM110:7 2
+VM110:7 5
+undefined
+console.log(length(head));
+VM151:1 10
+undefined

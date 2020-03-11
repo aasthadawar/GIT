@@ -1,0 +1,55 @@
+class Employee{
+constructor(){
+    this.counter=0;
+}
+static print(){
+console.log('hi i am print');
+}
+}
+undefined
+class Engineer extends Employee{
+    constructor(){
+super();
+this.name='aastha';
+    }
+static display(){
+    console.log('hi i am display');
+}
+help(){
+console.log('counter is',this.counter);}
+}
+undefined
+class Java extends Engineer{
+    constructor(){
+super();
+this.id=3971;
+    }
+static output(){
+    console.log('hi i am display');
+}
+show(){
+console.log('name is',this.name);
+}
+}
+undefined
+var obj= new Employee();
+undefined
+Employee.print();
+VM5157:6 hi i am print
+undefined
+var obj1= new Engineer();
+undefined
+obj1.help();
+VM5171:10 counter is 0
+undefined
+var obj2 = new Java();
+undefined
+obj2.show();
+VM5178:10 name is aastha
+undefined
+Engineer.print();
+VM5157:6 hi i am print
+undefined
+Java.display();
+VM5171:7 hi i am display
+undefined

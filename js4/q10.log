@@ -1,0 +1,67 @@
+class Stack {
+
+    constructor(x) {
+             
+         if(x)
+       {  this.data = x; }
+         this.left = null;
+         this.right = null;
+
+    }
+     
+    
+}
+undefined
+let head = new Stack();
+undefined
+function pushIn(head , val)
+{
+    let temp = head.right;
+    head.right = new Stack(val);
+    head.right.right = temp;
+}
+undefined
+function popOut(head)
+{
+    let temp = head.right.right;
+     delete head.right ;
+     head.right  = temp;
+
+}
+undefined
+function print(head)
+{
+     let temp = head;
+     while(temp.right!=null)
+     {  
+          temp = temp.right;
+          console.log(temp.data);
+     }
+}
+undefined
+pushIn(head , 6);
+pushIn(head , 8);
+pushIn(head , 4);
+pushIn(head , 3);
+pushIn(head , 7);
+pushIn(head , 1);
+pushIn(head , 9);
+pushIn(head , 2);
+pushIn(head , 5);
+undefined
+popOut(head);
+undefined
+popOut(head);
+undefined
+popOut(head);
+undefined
+popOut(head);
+undefined
+popOut(head);
+undefined
+print(head);
+VM202:7 3
+VM202:7 4
+VM202:7 8
+VM202:7 6
+undefined

@@ -1,0 +1,4 @@
+var arr1 = [1,2,[3,4,[5,6]]];
+undefined
+arr1.reduce((acc,item) => acc.concat(item), []);
+(5) [1, 2, 3, 4, Array(2)]

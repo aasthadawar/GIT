@@ -1,0 +1,15 @@
+class Counter{
+static print(){
+console.log('hi i am a static function');
+}
+static display(){
+console.log('hi i am static function 2');}
+}
+
+undefined
+Counter.print();
+VM2478:3 hi i am a static function
+undefined
+Counter.display();
+VM2478:6 hi i am static function 2
+undefined
