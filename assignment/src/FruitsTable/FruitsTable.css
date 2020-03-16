@@ -1,0 +1,40 @@
+.fruitTable{
+  margin: 10px auto;
+}
+
+.delete{
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  padding: 4px 6px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: 550;
+  width: 65px;
+}
+
+
+.edit{
+  background-color:green;
+  color: white;
+  font-size: 13px;
+  padding: 4px 6px;
+  margin: 0 5px;
+  
+  cursor: pointer;
+  font-weight: 550;
+  width: 65px;
+}
+
+
+
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid pink;
+  padding: 5px;
+}
